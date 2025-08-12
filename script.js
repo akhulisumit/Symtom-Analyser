@@ -23,7 +23,7 @@ document.querySelectorAll('.medical-history-button').forEach(button => {
     });
 });
 
-const API_KEY = 'AIzaSyC56g30u8bjTqn4cHd5P1eolfe5iwHMc7E';
+const API_KEY = 'AIzaSyDvMBukQt3nPyAb2iXu_Ia9wzd6YlUiKrI';
 
 document.getElementById('symptomForm').addEventListener('submit', async function(e) {
     e.preventDefault();
