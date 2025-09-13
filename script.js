@@ -115,4 +115,3 @@ Make it clear, actionable, and return results in clean styled HTML.
         resultsDiv.style.display = 'block';
     }
 });
-
