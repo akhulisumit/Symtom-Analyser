@@ -25,7 +25,7 @@ document.querySelectorAll('.medical-history-button').forEach(button => {
 });
 
 // ------------------- Form Submission -------------------
-const API_KEY = "AIzaSyAUGwptjyisi5_HynZGWh0SqhW8EX5-vN8"; // ⚠️ Replace with your Gemini API key
+const API_KEY = "AIzaSyAxgY0ng_dPfhc_BcrjZI8pLmDtigOiP4k"; // ⚠️ Replace with your Gemini API key
 
 document.getElementById('symptomForm').addEventListener('submit', async function (e) {
     e.preventDefault();
@@ -76,7 +76,7 @@ Make it clear, actionable, and return results in clean styled HTML.
     try {
         // Call Gemini API
         const response = await fetch(
-            "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent",
+            "https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent",
             {
                 method: "POST",
                 headers: {
